@@ -5,10 +5,10 @@ CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -O2
 
 # Target executable name
-TARGET = vector_example
+TARGET = list_example
 
 # Source file
-SRC = vector.cpp
+SRC = list.cpp
 
 # Default target
 all: $(TARGET)
